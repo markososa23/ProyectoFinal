@@ -1,0 +1,14 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen  name="btnSize">100sp</dimen>
+    <dimen name="btnSizeText">40sp</dimen>
+    <dimen name="btnSizeTextSiguiente">20sp</dimen>
+    <dimen name="tvSizeText">20sp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">14dp</dimen>
+    <dimen name="nav_header_height">120dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">14dp</dimen>
+    <dimen name="activity_vertical_margin">14dp</dimen>
+    <dimen name="fab_margin">14dp</dimen>
+</resources>

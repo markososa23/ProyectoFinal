@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">ProyectoFinal</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Correo</string>
+    <string name="detalle_reporte">Detalle Reporte</string>
+    <string name="prompt_password">Contraseña (optional)</string>
+    <string name="action_next">SIGUIENTE</string>
+    <string name="action_sign_in">Iniciar Sesion</string>
+    <string name="action_sign_in_Facebook">INGRESAR CON FACEBOOK</string>
+    <string name="action_sign_in_Google">INGRESAR CON GOOGLE</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="action_register">REGISTRAR</string>
+    <string name="error_invalid_email">Dirección de correo invalida</string>
+    <string name="error_invalid_password">Contraseña muy corta</string>
+    <string name="error_incorrect_password">Contraseña incorrecta</string>
+    <string name="error_field_required">Campo requerido</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_login">Iniciar Sesion</string>
+    <string name="title_activity_login4">Sign in</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_basic">basic</string>
+    <string name="cargar">Cargar</string>
+    <string name="subir_foto">Subir Foto</string>
+    <string name="tomar">Tomar</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>

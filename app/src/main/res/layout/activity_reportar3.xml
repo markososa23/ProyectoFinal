@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.marcosoft.proyectofinal.Reportar3Activity"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/txtSubirUbicacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="@dimen/btnSizeText"
+        android:text="Añadir Ubicacion" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:srcCompat="@drawable/mapa"
+        android:id="@+id/imageView"
+        android:layout_weight="0.85"
+        android:contentDescription="" />
+
+
+    <Button
+        android:id="@+id/btnSiguiente"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btnSizeText"
+        android:textSize="@dimen/btnSizeTextSiguiente"
+        android:text="@string/action_next"
+        android:background="?attr/colorPrimary" />
+</LinearLayout>

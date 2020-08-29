@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.marcosoft.proyectofinal.PrincipalActivity">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_cerrar_sesion"
+            android:icon="@drawable/ic_menu_cerrar_sesion2"
+            android:title="Cerrar Sesion" />
+        <item
+            android:id="@+id/nav_denunciar"
+            android:icon="@drawable/ic_menu_denunciar"
+            android:title="Denunciar" />
+        <item
+            android:id="@+id/nav_denuncias"
+            android:icon="@drawable/ic_menu_mis_denuncias"
+            android:title="Mis Denuncias" />
+        <item
+            android:id="@+id/nav_portal"
+            android:icon="@drawable/ic_menu_portal"
+            android:title="Portal" />
+        <item
+            android:id="@+id/nav_numerosUtiles"
+            android:icon="@drawable/ic_menu_numeros_utiles2"
+            android:title="Numeros Utiles" />
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_contactanos"
+                android:icon="@drawable/ic_menu_contactanos"
+                android:title="Contactanos" />
+            <item
+                android:id="@+id/nav_salir"
+                android:icon="@drawable/ic_menu_exit"
+                android:title="SALIR" />
+        </menu>
+    </item>
+
+</menu>
